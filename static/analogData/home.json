@@ -1,0 +1,342 @@
+{
+	"ret":true,
+	"content":{
+		"main":{
+			"sell":{
+				"name":"sell",
+				"bannersrc":["http://img1.morefood.com/files/ads_new/191486001480927739.jpg",
+				"http://img1.morefood.com/files/ads_new/894764001480927714.jpg"],
+				"foodlists":[
+					{
+					"id":1,
+					"img":"http://img1.morefood.com/files/ads_new/330215001519711105.jpg",
+					"title":"江中猴姑 早餐米稀（原味）450g/盒",
+					"price":30.8,
+					"oldprice":42},
+					{"id":2,
+					"img":"http://img1.morefood.com/files/ads_new/122306001519711176.jpg",
+					"title":"好欢螺 螺蛳粉400g/袋",
+					"price":21.6,
+					"oldprice":29.9},
+					{"id":3,
+					"img":"http://img1.morefood.com/files/ads_new/709594001519711145.jpg",
+					"title":"好想你 健康情枣998g/盒",
+					"price":46.2,
+					"oldprice":63},
+					{
+					"id":4,
+					"img":"http://img1.morefood.com/files/ads_new/528973001481003162.jpg",
+					"title":"Ocean Spray优鲜沛 蔓越莓干1360g/",
+					"price":85,
+					"oldprice":145},
+					{
+					"id":5,
+					"img":"http://img1.morefood.com/files/ads_new/528208001481003139.jpg",
+					"title":"港荣 蓝莓果汁灌芯蒸蛋糕1kg/箱",
+					"price":30.8,
+					"oldprice":52},
+					{
+					"id":7,
+					"img":"http://img1.morefood.com/files/ads_new/925347001519711056.jpg",
+					"title":"嘀嗒猫 每日坚果175g/盒",
+					"price":61.6,
+					"oldprice":99.9},
+					{
+					"id":8,
+					"img":"http://img1.morefood.com/files/ads_new/900186001481003131.jpg",
+					"title":"盼盼 梅尼耶干蛋糕（奶香）1000g/箱",
+					"price":116.2,
+					"oldprice":123},
+					{
+					"id":9,
+					"img":"http://img1.morefood.com/files/ads_new/238543001519711232.jpg",
+					"title":"盼盼 手撕面包1kg/箱",
+					"price":35,
+					"oldprice":45}
+					]
+			},
+			"new":{
+				"name":"new",
+				"bottomImg":"http://img1.morefood.com/files/ads_new/881680001480069355.jpg",
+				"foodlists":[
+					{
+					"id":10,
+					"img":"http://img1.morefood.com/files/ads_new/086367001519712245.jpg",
+					"title":"吉力贝 迷惑怪味豆形糖果100g/盒",
+					"price":10.8,
+					"oldprice":12},
+					{
+					"id":11,
+					"img":"http://img1.morefood.com/files/ads_new/627911001519712795.jpg",
+					"title":"嘀嗒猫 小米锅巴（蟹黄味）70g/袋",
+					"price":21.63,
+					"oldprice":39.9},
+					{
+					"id":12,
+					"img":"http://img1.morefood.com/files/ads_new/063404001519712331.jpg",
+					"title":"无穷 盐焗鸡蛋600g/袋",
+					"price":15.2,
+					"oldprice":25},
+					{
+					"id":13,
+					"img":"http://img1.morefood.com/files/ads_new/727142001519712466.jpg",
+					"title":"如胜 樱桃皇后巧克力制品145g/盒",
+					"price":32,
+					"oldprice":45},
+					{
+					"id":14,
+					"img":"http://img1.morefood.com/files/ads_new/797179001519712429.jpg",
+					"title":"都市牧场 爽口含片(正梅味）45g/瓶",
+					"price":12.8,
+					"oldprice":22}
+					]
+			},
+			"didamao":{
+				"name":"didamao",
+				"didamaoBottom":["http://img1.morefood.com/files/ads_new/252368001480413393.jpg","http://img1.morefood.com/files/ads_new/206280001480413429.jpg"],
+				"bannersrc":["http://img1.morefood.com/files/ads_new/319893001492589223.jpg",
+				"http://img1.morefood.com/files/ads_new/173382001519704022.jpg",
+				"http://img1.morefood.com/files/ads_new/693178001519703710.jpg",
+				"http://img1.morefood.com/files/ads_new/816759001519708088.jpg"],
+				"foodlists":[
+					{
+					"id":15,
+					"img":"http://img1.morefood.com/files/ads_new/916411001519714182.jpg",
+					"title":"嘀嗒猫 冻干酸奶果粒块54g/盒",
+					"price":11.8,
+					"oldprice":22},
+					{
+					"id":16,
+					"img":"http://img1.morefood.com/files/ads_new/812975001481194105.jpg",
+					"title":"嘀嗒猫 榴莲干30g/袋",
+					"price":20.6,
+					"oldprice":29.9},
+					{
+					"id":17,	
+					"img":"http://img1.morefood.com/files/ads_new/170782001519713853.jpg",
+					"title":"嘀嗒猫 每日坚果175g/盒",
+					"price":17.2,
+					"oldprice":29},
+					{
+					"id":18,	
+					"img":"http://img1.morefood.com/files/ads_new/700469001481194111.jpg",
+					"title":"嘀嗒猫 甘栗仁80g/袋",
+					"price":25,
+					"oldprice":45},
+					{
+						
+					"id":19,
+					"img":"http://img1.morefood.com/files/ads_new/270768001519714011.jpg",
+					"title":"嘀嗒猫 冻干龙眼榴莲脆40g/盒",
+					"price":17.8,
+					"oldprice":32}
+					]
+			},
+			"floor":[
+			{
+				"name":"饼干糕点",
+				"content":{
+					"hot":["Aji","凤梨酥","咔咔莎","麻薯","椰子酥","和情焦糖饼干","蜜兰诺松塔","御之味"],
+					"bigsrc":"http://img1.morefood.com/files/ads_new/170162001480491219.jpg",
+					"malf":["面包","威化","饼干"],
+					"malflogo":["http://img1.morefood.com/template/template3/images/indexlogo/heqing.jpg",
+					"http://img1.morefood.com/template/template3/images/indexlogo/gangrong.jpg",
+					"http://img1.morefood.com/template/template3/images/indexlogo/tipo.jpg",
+					"http://img1.morefood.com/template/template3/images/indexlogo/youchen.jpg"],
+					"foodlist":[
+					{
+					"id":20,	
+					"img":"http://img1.morefood.com/files/ads_new/401434001481104982.jpg",
+					"title":"丹夫 华夫饼（奶油味）168g",
+					"price":10.8,
+					"oldprice":12},
+					{
+					"id":21,
+					"img":"http://img1.morefood.com/files/ads_new/272029001481104989.jpg",
+					"title":"台湾零食 77牌 蜜兰诺松塔192g",
+					"price":21.6,
+					"oldprice":29.9},
+					{
+					"id":22,
+					"img":"http://img1.morefood.com/files/ads_new/241218001481104996.jpg",
+					"title":"友谊牌 Tipo鸡蛋牛奶味面包干300g/袋 越南进口",
+					"price":16.2,
+					"oldprice":23},
+					{
+					"id":23,
+					"img":"http://img1.morefood.com/files/ads_new/394929001481105002.jpg",
+					"title":"盼盼 手撕面包1kg/箱",
+					"price":35,
+					"oldprice":45}
+					],
+					"evaluate":{
+						"name":"吃货评价",
+						"list":[
+						{
+							"id":100,
+							"img":"http://img1.morefood.com/files/ads_new/544879001480317085.jpg",
+							"title":"莱家 粒粒装威化饼（榛子味）125g/袋",
+							"star":5,
+							"tag":["果仁香","饼干好吃","口感不错"]
+						},
+						{
+							"id":121,
+							"img":"http://img1.morefood.com/files/ads_new/594086001493191957.jpg",
+							"title":"皇族 手打红豆夹心糯米饼180g/包",
+							"star":4.9,
+							"tag":["口味多 ","包装不错","性价比高"]
+						},
+						{
+							"id":132,
+							"img":"http://img1.morefood.com/files/ads_new/420259001480317183.jpg",
+							"title":"盼盼 瑞士卷（草莓味）240g/袋",
+							"star":5,
+							"tag":["早餐搭配","份量十足","超好吃"]
+						}
+						]
+					}
+				}
+			},
+			{
+				"name":"肉类熟食",
+				"content":{
+					"hot":["Aji","凤梨酥","咔咔莎","麻薯","椰子酥","和情焦糖饼干","蜜兰诺松塔","御之味"],
+					"bigsrc":"http://img1.morefood.com/files/ads_new/872046001480491254.jpg",
+					"malf":["牛肉类","鸡肉类","猪肉类"],
+					"malflogo":["http://img1.morefood.com/template/template3/images/indexlogo/riqing.jpg",
+					"http://img1.morefood.com/template/template3/images/indexlogo/boli.jpg",
+					"http://img1.morefood.com/template/template3/images/indexlogo/runcheng.jpg",
+					"http://img1.morefood.com/template/template3/images/indexlogo/shuanghui.jpg"],
+					"foodlist":[
+					{
+					"id":144,	
+					"img":"http://img1.morefood.com/files/ads_new/015833001487230890.jpg",
+					"title":"周黑鸭 彩包鸭翅（网购）180g/袋",
+					"price":19.8,
+					"oldprice":30},
+					{
+					"id":155,						
+					"img":"http://img1.morefood.com/files/ads_new/399695001481091837.jpg",
+					"title":"嘀嗒猫 猪肉脯（白芝麻味）200g/袋",
+					"price":32.9,
+					"oldprice":36},
+					{
+					"id":166,
+					"img":"http://img1.morefood.com/files/ads_new/759964001481092082.jpg",
+					"title":"有友 泡椒凤爪500g/袋（散称）重庆特产",
+					"price":25.9,
+					"oldprice":39},
+					{
+					"id":177,
+					"img":"http://img1.morefood.com/files/ads_new/559547001481091853.jpg",
+					"title":"老四川 麻辣牛肉100g/袋 重庆特产",
+					"price":12.8,
+					"oldprice":18}
+					],
+					"evaluate":{
+						"name":"吃货评价",
+						"list":[
+						{   "id":188,
+							"img":"http://img1.morefood.com/files/ads_new/542802001480324150.jpg",
+							"title":"四川特产 哈哥 兔肉干（麻辣味）90g/袋",
+							"star":5,
+							"tag":["肉质新鲜","好醇香 ","美味十足"]
+						},
+						{   "id":199,
+							"img":"http://img1.morefood.com/files/ads_new/695256001480324213.jpg",
+							"title":"嘀嗒猫 鸭肫（香辣味）168g/袋",
+							"star":4.9,
+							"tag":["麻辣有味 ","分量足"," 值得推荐"]
+						},
+						{   "id":221,
+							"img":"http://img1.morefood.com/files/ads_new/894762001480324277.jpg",
+							"title":"嘀嗒猫 五香牛肉干125g/袋",
+							"star":5,
+							"tag":["五香口味 ","口感好","回味悠长"]
+						}
+						]
+					}
+				}
+			}
+			]
+		},
+		"banner":{
+			"bannersrc":["http://img1.morefood.com/files/ads_new/319893001492589223.jpg",
+				"http://img1.morefood.com/files/ads_new/173382001519704022.jpg",
+				"http://img1.morefood.com/files/ads_new/693178001519703710.jpg",
+				"http://img1.morefood.com/files/ads_new/816759001519708088.jpg"],
+			"foodclass":[{"name":"进口美食",
+				"content":{
+					"common":["进口冲饮","进口膨化","进口咖啡"],
+					"recommend":{"name":"热卖推荐","content":["宾格瑞-风味香蕉牛奶","德国品质-上质纯牛奶"]}
+				}
+				},
+				{"name":"牛奶乳品",
+				"content":{
+					"common":["进口冲饮","进口膨化","进口咖啡"],
+					"recommend":{"name":"热卖推荐","content":["宾格瑞-风味香蕉牛奶","德国品质-上质纯牛奶"]}
+				}
+				},
+				{"name":"饼干膨化",
+				"content":{
+					"common":["进口冲饮","进口膨化","进口咖啡"],
+					"recommend":{"name":"热卖推荐","content":["宾格瑞-风味香蕉牛奶","德国品质-上质纯牛奶"]}
+				}
+				},
+				{"name":"糕点点心",
+				"content":{
+					"common":["进口冲饮","进口膨化","进口咖啡"],
+					"recommend":{"name":"热卖推荐","content":["宾格瑞-风味香蕉牛奶","德国品质-上质纯牛奶"]}
+				}
+				},
+				{"name":"糖果布丁",
+				"content":{
+					"common":["进口冲饮","进口膨化","进口咖啡"],
+					"recommend":{"name":"热卖推荐","content":["宾格瑞-风味香蕉牛奶","德国品质-上质纯牛奶"]}
+				}
+				},
+				{"name":"坚果炒货",
+				"content":{
+					"common":["进口冲饮","进口膨化","进口咖啡"],
+					"recommend":{"name":"热卖推荐","content":["宾格瑞-风味香蕉牛奶","德国品质-上质纯牛奶"]}
+				}
+				},
+				{"name":"果干枣类",
+				"content":{
+					"common":["进口冲饮","进口膨化","进口咖啡"],
+					"recommend":{"name":"热卖推荐","content":["宾格瑞-风味香蕉牛奶","德国品质-上质纯牛奶"]}
+				}
+				},
+				{"name":"肉类海味",
+				"content":{
+					"common":["豆制品","鱼豆腐"],
+					"recommend":{"name":"热卖推荐","content":["宾格瑞-风味香蕉牛奶","德国品质-上质纯牛奶"]}
+				}
+				},
+				{"name":"豆干制品",
+				"content":{
+					"common":["豆制品","鱼豆腐"],
+					"recommend":{"name":"热卖推荐","content":["卫龙辣条","金针菇"]}
+				}
+				},
+				{"name":"冲饮咖啡",
+				"content":{
+					"common":["饮料","冲调饮品","果茶"],
+					"recommend":{"name":"热卖推荐","content":["中原G7","柚子茶","纯牛奶","优鲜沛蔓越莓果汁"]}
+				}
+				},
+				{"name":"方便速食",
+				"content":{
+					"common":["卤蛋","速食汤","泡面"],
+					"recommend":{"name":"热卖推荐","content":["沈师傅鸡蛋干","“出前一丁”多口味"]}
+				}
+				}
+				
+				],
+				"bannerbottom":["http://img1.morefood.com/files/ads_new/754834001480059489.jpg",
+				"http://img1.morefood.com/files/ads_new/609246001480059498.jpg",
+				"http://img1.morefood.com/files/ads_new/874700001480059506.jpg",
+				"http://img1.morefood.com/files/ads_new/351982001480059514.jpg"]
+		}
+	}
+}

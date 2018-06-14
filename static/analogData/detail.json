@@ -1,0 +1,13 @@
+{
+	"ret":true,
+	"content":{
+		"main":{
+			"class":{
+				"name":"口味细分 ",
+				"class":{
+					"name":"辣味"
+				}
+			}
+		}
+	}
+}
