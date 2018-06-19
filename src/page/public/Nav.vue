@@ -22,7 +22,7 @@
 				<img class="nav-left-img" src="http://img1.morefood.com/template/template3/images/nav-x-leftico.png"/>
 			</div>
 			<ul class="nav-bar">
-				<li class="nav-bar-li" v-for='item in nav'> <router-link class='link' to='/'>{{item}}</router-link></li>
+				<li class="nav-bar-li" v-for='item in nav'> <router-link class='link' :to='item.path'>{{item.name}}</router-link></li>
 			</ul>
 			<div class="cart-box">
 				<span class="cart-box-icon"><img class="cart-box-img" src="../../assets/img/icon_cart.png"/></span>
@@ -36,6 +36,7 @@
 </template>
 
 <script>
+	import axios from 'axios'
 	import {mapState} from 'vuex'
 	import logosrc from "../../assets/img/logo.gif"
 	import saomasrc from "../../assets/img/saoma.jpg"
@@ -43,36 +44,37 @@
 		name: "Nav",
 		data() {
 			return {
+				head:{},
 				logosrc,
 				saomasrc,
-				nav:[],
+				nav:[{name:"首页",path:'/'},{name:"嘀嗒猫",path:'/Dida'},{name:"进口食品",path:'/Import'},{name:"特产精选",path:'/'},{name:"口味细分",path:'/'}],
 				num:0,
 				searchlink:[],
 				placeholder:''
 			}
-		},
-		computed:{
-			...mapState({
-				head:"head"
-			})
 		},
 		watch:{
 				head:function(){
 				    this.$nextTick(function(){
 						this.searchlink = this.head.search.searchBottom.content
 						this.placeholder = this.head.search.placeholder
-						this.nav = this.head.search.nav
 					})
 				}
 		},
 		methods:{
-			getNavInfo(){
-				
-			}
+			getPublicInfo(){
+				axios.get('/api/public.json').then(this.getPublicInfoSucc)
+			},
+			//获取公共信息
+			getPublicInfoSucc(res){
+					var res = res.data
+					if(res.ret && res.content) {
+					    this.head = res.content.head
+					}
+		    }
 		},
 		mounted(){
-			
-			
+			this.getPublicInfo()
 		}
 	}
 </script>

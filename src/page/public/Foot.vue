@@ -46,18 +46,15 @@
 </template>
 
 <script>
+	import axios from 'axios'
 	import {mapState} from 'vuex'
 	export default{
 		name:'Foot',
 		data(){
 			return{
-				aboutus:[]
+				aboutus:[],
+				foot:{}
 			}
-		},
-		computed:{
-			...mapState({
-				foot:"foot"
-			})
 		},
 		watch:{
 			foot:function(){
@@ -65,6 +62,21 @@
 						this.aboutus = this.foot.aboutus
 				})
 			}
+		},
+		methods:{
+				getPublicInfo(){
+					axios.get('/api/public.json').then(this.getPublicInfoSucc)
+				},
+					//获取公共信息
+				getPublicInfoSucc(res){
+						var res = res.data
+						if(res.ret && res.content) {
+							this.foot = res.content.foot
+						}
+				},
+		},
+		mounted(){
+			this.getPublicInfo()
 		}
 	}
 </script>

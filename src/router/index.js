@@ -13,6 +13,15 @@ import Floor from '@/page/home/children/Floor'
 import Detail from '@/page/detail/Detail'
 import InDetail from '@/page/detail/children/InDetail'
 import LastVisit from '@/page/public/LastVisit'
+import Dida from '@/page/dida/Dida'
+import InDida from '@/page/dida/children/InDida'
+import FoodBox from '@/page/public/FoodBox'
+import Page from '@/page/public/Page'
+import Login from '@/page/login/Login'
+import Register from '@/page/login/Register'
+import Import from '@/page/import/Import'
+import InImport from '@/page/import/children/InImport'
+
 
 Vue.use(Router)
 
@@ -71,6 +80,44 @@ export default new Router({
     	path:'/LastVisit',
     	name:'LastVisit',
     	component:LastVisit
+    },
+    {
+    	path:'/Dida',
+    	name:'Dida',
+    	component:Dida,
+    	children:[{
+    		path:"/InDida",
+    		component:InDida
+    	}]
+    },
+    {
+    	path:'/FoodBox',
+    	name:'FoodBox',
+    	component:FoodBox
+    },
+    {
+    	path:'/Page',
+    	name:'Page',
+    	component:Page
+    },
+    {
+    	path:'/Login',
+    	name:'Login',
+    	component:Login
+    },
+    {
+    	path:'/Register',
+    	name:'Register',
+    	component:Register
+    },
+    {
+    	path:'/Import',
+    	name:'Import',
+    	component:Import,
+    	children:[{
+    		path:"/InImport",
+    		component:InImport
+    	}]
     }
   ]
 })

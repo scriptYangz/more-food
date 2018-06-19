@@ -1,33 +1,30 @@
 <template>
-		<div>
-			<head-top></head-top>
+	<div>
+		    <head-top></head-top>
 		    <Nav></Nav>
-		    <InDetail></InDetail>
+		    <InDida></InDida>
 		    <Foot class="footer"></Foot>
-		</div>
+	</div>
 </template>
 
 <script>
-	
 	import headTop from '../public/Head'
 	import Foot from '../public/Foot'
 	import Nav from '../public/Nav'
-	import InDetail from './children/InDetail'
+	import InDida from './children/InDida'
 export default{
-	name:"Detail",
-	data(){
-		return{
-			id:null,
-			head: {},
-			foot: {}
-		}
-	},
+	name:"Dida",
 	components:{
 		headTop,
 		Foot,
 		Nav,
-		InDetail
+		InDida
 	},
+	data(){
+		return{
+			
+		}
+	}
 }
 </script>
 

@@ -1,0 +1,76 @@
+{
+	"ret":true,
+	"content":{
+		"main":{
+			"class":["口味细分","辣味"],
+			"lastvisit":[
+			       {
+					"id":10,
+					"img":"http://img1.morefood.com/files/ads_new/086367001519712245.jpg",
+					"title":"吉力贝 迷惑怪味豆形糖果100g/盒",
+					"price":10.8,
+					"oldprice":12},
+					{
+					"id":11,
+					"img":"http://img1.morefood.com/files/ads_new/627911001519712795.jpg",
+					"title":"嘀嗒猫 小米锅巴（蟹黄味）70g/袋",
+					"price":21.63,
+					"oldprice":39.9},
+					{
+					"id":12,
+					"img":"http://img1.morefood.com/files/ads_new/063404001519712331.jpg",
+					"title":"无穷 盐焗鸡蛋600g/袋",
+					"price":15.2,
+					"oldprice":25},
+					{
+					"id":13,
+					"img":"http://img1.morefood.com/files/ads_new/727142001519712466.jpg",
+					"title":"如胜 樱桃皇后巧克力制品145g/盒",
+					"price":32,
+					"oldprice":45},
+					{
+					"id":14,
+					"img":"http://img1.morefood.com/files/ads_new/797179001519712429.jpg",
+					"title":"都市牧场 爽口含片(正梅味）45g/瓶",
+					"price":12.8,
+					"oldprice":22}
+			],
+			 "foodlist":[{
+					"id":20,	
+					"img":"http://img1.morefood.com/files/ads_new/401434001481104982.jpg",
+					"title":"丹夫 华夫饼（奶油味）168g",
+					"price":10.8,
+					"oldprice":12,
+					"sellout":true,
+					"edunum":3367
+					},
+					{
+					"id":21,
+					"img":"http://img1.morefood.com/files/ads_new/272029001481104989.jpg",
+					"title":"台湾零食 77牌 蜜兰诺松塔192g",
+					"price":21.6,
+					"oldprice":29.9,
+					"edunum":347,
+					"discount":"超级满减 满99减50"
+					},
+					{
+					"id":22,
+					"img":"http://img1.morefood.com/files/ads_new/241218001481104996.jpg",
+					"title":"友谊牌 Tipo鸡蛋牛奶味面包干300g/袋 越南进口",
+					"price":16.2,
+					"oldprice":23,
+					"discount":"超级满减 满199减80",
+					"edunum":3367},
+					{
+					"id":23,
+					"img":"http://img1.morefood.com/files/ads_new/394929001481105002.jpg",
+					"title":"盼盼 手撕面包1kg/箱",
+					"price":35,
+					"oldprice":45,
+					"edunum":2227,
+					"discount":"超级满减 满199减80"
+					}],
+				"pages":20
+		}
+	}
+}

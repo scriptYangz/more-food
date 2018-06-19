@@ -52,17 +52,7 @@
 		},
 		methods: {
 			getHomeInfo() {
-				axios.get('/api/public.json').then(this.getPublicInfoSucc)
 				axios.get('/api/home.json').then(this.getHomeInfoSucc)
-			},
-			getPublicInfoSucc(res){
-				var res = res.data
-				if(res.ret && res.content) {
-				    this.head = res.content.head
-					this.foot = res.content.foot
-					this.$store.commit('changeHead', this.head)
-					this.$store.commit('changeFoot', this.foot)
-				}
 			},
 			getHomeInfoSucc(res) {
 				var res = res.data

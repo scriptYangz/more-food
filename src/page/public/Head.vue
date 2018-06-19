@@ -2,7 +2,7 @@
 	<div>
 		<div class="header">
 			<div class="header-contianer">
-				<router-link to="/">
+				<router-link to="/Login">
 					<img class="contianer-but login" src="http://img1.morefood.com/template/template3/images/top-login.gif"/>
 				</router-link>
 				<router-link to="/">
@@ -37,6 +37,7 @@
 </template>
 
 <script>
+	
 export default{
 	name:'Head',
 	data (){

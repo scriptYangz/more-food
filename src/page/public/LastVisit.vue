@@ -3,10 +3,10 @@
 		<div class="top">
 			最近浏览过的商品
 		</div>
-      <ul v-for="item in items" class="visitbox">
-        <li class="img"><router-link to="/" title="有友 泡椒凤爪100g/袋 重庆特产" target="_blank"><img width="130" height="130" src="http://img1.morefood.com/files/images2016/180-180/list-6116-27034-180-180.jpg"></router-link></li>
-        <li class="title"><router-link to="/" class="titlelink" title="" target="_blank">有友 泡椒凤爪100g/袋 重庆特产</router-link></li>
-        <li class="price">￥4.80</li>
+      <ul v-for="item in this.lastvisit" class="visitbox">
+        <li class="img"><router-link to="/" :title="item.title" target="_blank"><img width="130" height="130" :src="item.img"></router-link></li>
+        <li class="title"><router-link to="/" class="titlelink" title="" target="_blank">{{item.title}}</router-link></li>
+        <li class="price">￥{{item.price}}</li>
       </ul>
   </div>
 </template>
@@ -14,6 +14,9 @@
 <script>
 	export default{
 		name:"LastVisitd",
+		props:{
+			lastvisit:Array
+		},
 		data(){
 			return{
 				items:["w","q","e"]
@@ -25,6 +28,7 @@
 <style lang="stylus" scoped="scoped">
 	@import '../../assets/style/varibles.styl';
 	.last_visit_goods{
+		display: inline-block;
 	    border: 1px solid #80d7dd;
 	    height: auto;
 	    margin: 5px 0 0 0;
