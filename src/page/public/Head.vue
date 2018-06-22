@@ -5,7 +5,7 @@
 				<router-link to="/Login">
 					<img class="contianer-but login" src="http://img1.morefood.com/template/template3/images/top-login.gif"/>
 				</router-link>
-				<router-link to="/">
+				<router-link to="/Register">
 					<img class="contianer-but reg" src="http://img1.morefood.com/template/template3/images/top-zc.gif"/>
 				</router-link>
 				<ul class="contianer-box">

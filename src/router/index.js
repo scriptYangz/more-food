@@ -21,6 +21,8 @@ import Login from '@/page/login/Login'
 import Register from '@/page/login/Register'
 import Import from '@/page/import/Import'
 import InImport from '@/page/import/children/InImport'
+import Cart from '@/page/cart/Cart'
+import MyCart from '@/page/cart//children/MyCart'
 
 
 Vue.use(Router)
@@ -117,6 +119,16 @@ export default new Router({
     	children:[{
     		path:"/InImport",
     		component:InImport
+    	}]
+    },
+    {
+    	path:'/Cart',
+    	name:'Cart',
+    	component:Cart,
+    	children:[{
+    		path:"/MyCart",
+    		name:"MyCart",
+    		component:MyCart
     	}]
     }
   ]
